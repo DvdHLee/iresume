@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+
+import "./App.css";
+import Header from "./Components/Header";
+import MainBody from "./Components/MainBody";
 
 function App() {
+  const [tab, setTab] = useState(1);
+  const tabSelector = (value) => {
+    setTab(value);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header onChangeTab={tabSelector}></Header>
+      <MainBody tabnum={tab}></MainBody>
     </div>
   );
 }
