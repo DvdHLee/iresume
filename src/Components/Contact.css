@@ -1,7 +1,7 @@
 .contact  {
     width: 100%;
     height: 100%;
-    background-color: #e0b779;
+    background-color: #455386;
     text-align: center;
 }
 
@@ -10,6 +10,7 @@
     font-size: 35px;
     letter-spacing: 0.1rem;
     padding-bottom: 170px;
+    color: white;
 }
 
 .contactblock {
@@ -35,4 +36,5 @@
     transform: translateY(-70%);
     font-size: 25px;
     letter-spacing: 0.1rem;
+    color: white;
 }
