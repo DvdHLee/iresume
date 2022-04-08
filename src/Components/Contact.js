@@ -5,7 +5,7 @@ import "./Contact.css";
 const Contact = (props) => {
   return (
     <div className="contact">
-      <p className="contacttitle">Contact</p>
+      <p className="contacttitle">CONTACT</p>
       <div className="contactblock">
         <div className="contactrow">
           <img
