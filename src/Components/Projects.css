@@ -12,10 +12,6 @@
     color: rgb(0, 0, 0);
 }
 
-.projectrow {
-    
-}
-
 .projectitem {
     display: inline-block;
     margin: 10px;
@@ -29,15 +25,31 @@
     position: relative;
 }
 
-.projecticon {
-    width: 200px;
-    height: 200px;
-    display: flex;
-}
-
 #mcicon {
     width: 180px;
     height: 80px;
     display: flex;
     margin: 60px 10px 0 10px;
+}
+
+#iresumeicon {
+    width: 180px;
+    height: 150px;
+    display: flex;
+    margin: 25px 10px 0 10px;
+}
+
+#africairicon {
+    width: 180px;
+    height: 90px;
+    display: flex;
+    margin: 55px 10px 0 10px;
+}
+
+#comingsoon {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    margin: 70px 10px 0 10px;
+    padding-left: 13px;
 }

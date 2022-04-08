@@ -11,30 +11,30 @@ const Projects = (props) => {
           <img
             id="mcicon"
             src="/assets/Icons/mealchewser.png"
-            alt="this is a linkedin icon"
+            alt="this is a mealchewser icon"
           />
         </a>
         <a className="projectitem" href="https://github.com/DvdHLee" title="">
           <img
-            className="projecticon"
-            src="/assets/Icons/linkedin.png"
-            alt="this is a linkedin icon"
+            id="iresumeicon"
+            src="/assets/Icons/iresume.svg"
+            alt="this is a iresume icon"
           />
         </a>
       </div>
       <div className="projectrow">
         <a className="projectitem" href="https://github.com/DvdHLee" title="">
           <img
-            className="projecticon"
-            src="/assets/Icons/linkedin.png"
-            alt="this is a linkedin icon"
+            id="africairicon"
+            src="/assets/Icons/africair.png"
+            alt="this is a a4a icon"
           />
         </a>
         <a className="projectitem" href="https://github.com/DvdHLee" title="">
-          <img
-            className="projecticon"
-            src="/assets/Icons/linkedin.png"
-            alt="this is a linkedin icon"
+        <img
+            id="comingsoon"
+            src="/assets/Icons/comingsoon.svg"
+            alt="this is a coming soon icon"
           />
         </a>
       </div>
