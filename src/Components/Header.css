@@ -3,6 +3,8 @@
   height: 35px;
   background-color: #ffffff;
   padding-top: 8px;
+  z-index: 100;
+  position: relative;
 }
 
 .navbar {

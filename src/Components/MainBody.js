@@ -8,7 +8,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
-const MainBody = (props) => {
+const MainBody = props => {
   const pagenum = props.tabnum;
 
   if (pagenum == 1) {
