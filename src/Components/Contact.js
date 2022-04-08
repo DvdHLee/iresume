@@ -21,7 +21,7 @@ const Contact = (props) => {
             src="/assets/Icons/linkedin.png"
             alt="this is a linkedin icon"
           />
-          <p className="contactinfo">https://www.linkedin.com/dvdhyelee</p>
+          <a className="contactinfo" href="https://www.linkedin.com/in/david-hyesung-lee/" title="">LinkedIn - DavidHyesungLee</a>
         </div>
         <div className="contactrow">
           <img
