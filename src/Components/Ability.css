@@ -1,0 +1,12 @@
+.ability {
+    display: flex;
+    margin: 5px 0 5px 0;
+}
+
+.abilityname {
+    width: 275px;
+}
+
+.stars {
+    width: 100px;
+}

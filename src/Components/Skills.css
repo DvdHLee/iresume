@@ -3,3 +3,54 @@
     height: 100%;
     background-color: #CAD1D2;
 }
+
+.skillstitle {
+    padding-top: 80px;
+    font-size: 35px;
+    letter-spacing: 0.1rem;
+    padding-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.skillcategory {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.categoryname {
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+}
+
+.categorycontent {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.column {
+    width: 350px;
+    margin: 0;
+    margin-right: auto;
+}
+
+.column2 {
+    width: 350px;
+    margin: 0;
+    margin-left: auto;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #bfb5ec;
+    margin-top: 20px;
+}
+
+.midline {
+    height: 117px;
+    width: 1px;
+    background-color: #bfb5ec;
+}
