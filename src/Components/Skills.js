@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Skills.css";
-import Ability from "./Ability";
+import Ability from "./Internals/Ability";
 
 const Skills = (props) => {
   return (
